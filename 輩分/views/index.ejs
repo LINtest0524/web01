@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+	
+
+	
+
+
+
+
+
+	<title>
+		<%= title %>
+	</title>
+</head>
+
+<body>
+	<h1>留言板</h1>
+	<form action="/messageBoard" method="post">
+		<input type="text" name="content" placeholder="填寫留言訊息">
+		<input type="submit" valut="送出">
+	</form>
+	<a href="/login">登入</a>
+	<a href="/signup">註冊</a>
+	<a href="/user">個人頁面</a>
+	<ul>
+		<li>
+			姓名 : 留言內容
+		</li>
+	</ul>
+
+	<script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+
+	<!-- 這一句要小心 複製檔案中沒有 同學提供網址連結要自己去找 
+        https://firebase.google.com/docs/web/setup#expandable-8 -->
+	<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+</body>
+
+</html>

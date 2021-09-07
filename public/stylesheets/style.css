@@ -1,0 +1,34 @@
+footer{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  color: aqua;
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+}
+
+header{
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+.logo{
+  height: 50px;
+}
+
+.headul{
+  color: antiquewhite;
+}
+
+.headul li {
+  padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
